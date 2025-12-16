@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Countdown Logic ---
     // Set launch date to December 15, 2025
-    const launchDate = new Date('2025-12-15T00:00:00');
+    const launchDate = new Date('2025-12-31T00:00:00');
 
     function updateCountdown() {
         const now = new Date().getTime();
